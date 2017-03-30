@@ -1,0 +1,185 @@
+
+html {
+	background: url(mtruasunlight.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	padding: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #E8112D;
+	font-family: 'Open Sans', sans-serif;
+	margin: 20px;
+	background-size: contain;
+}
+
+
+/* Navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0A2463;
+    width: 1030px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFAFF;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #3454D1;
+}
+
+
+img.large {
+	width: 1000px;
+	height: 450px;
+	border: solid 3px #009E49;
+	position: relative;
+	margin: 10px 10px 10px 0px;
+}
+
+img.news {
+	width: 200px;
+    position: absolute; top: 250px; left: 830px;
+    border: 3px solid #009E49;
+    border-radius: 4px;
+}
+
+.newshead1 {
+	position: absolute; top: 250px; left: 840px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.newsphoto1 {
+	position: absolute; top: 300px; left: 840px;
+	width: 180px;
+	opacity: 0.6;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.newsphoto1:hover {
+	opacity: 1;
+}
+
+.newshead2 {
+	position: absolute; top: 420px; left: 840px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.newsphoto2 {
+	position: absolute; top: 450px; left: 840px;
+	width: 180px;
+	opacity: 0.6;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.newsphoto2:hover {
+	opacity: 1;
+}
+
+.searchbar {
+    position: absolute; top: 0px; left: 830px;
+    width: 200px;
+}
+
+.searchbox {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.loginbtn {
+	position: absolute; top: 200px; left: 400px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+div.blurb {
+	width: 1000px;
+}
+
+h4 {
+	font-size: 50px;
+	color: #0A2463;
+	margin: 15px 0px 15px 0px;
+	font-family: 'Amaranth', sans-serif;
+}
+
+p {
+	font-size: 14px;
+	color: #0A2463;
+}
+
+button {
+	background-color: #00A6FB;
+    border: none;
+    color: #FFFAFF;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+	background-color: #3454D1;
+}
+
+.dropbtn {
+    padding: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn:hover {
+	.dropdown-content{
+		display: block;
+	}
+}
+
